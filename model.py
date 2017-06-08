@@ -231,7 +231,7 @@ def main():
     # plot_layer_outputs(model, [sheared_image], 0)
     # plt.show()
 
-    model.fit_generator(train_generator, steps_per_epoch=len(train_samples)*5/batch_size, validation_data = validation_generator, nb_val_samples = len(validation_samples)*5/batch_size, nb_epoch = 7)
+    model.fit_generator(train_generator, steps_per_epoch=len(train_samples)*5/batch_size, validation_data = validation_generator, nb_val_samples = len(validation_samples)*5/batch_size, nb_epoch = 6)
     # model.fit_generator(train_generator, samples_per_epoch= len(train_samples)*3, validation_data = validation_generator, nb_val_samples = len(validation_samples), nb_epoch = 5)
     model.save('model.h5')
 
