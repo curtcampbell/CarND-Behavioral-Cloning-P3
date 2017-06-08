@@ -1,9 +1,5 @@
 #**Behavioral Cloning** 
 
-##Writeup Template
-
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Behavioral Cloning Project**
@@ -25,6 +21,7 @@ The goals / steps of this project are the following:
 
 
 ## Rubric Points
+
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
 
 ---
@@ -42,6 +39,7 @@ My project includes the following files:
 Here's a [link to my video result](./output-images/output-run.mp4)
 
 ####2. Submission includes functional code
+
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing 
 ```sh
 python drive.py model.h5
